@@ -1,8 +1,6 @@
 #[cfg(test)]
-pub use mercury_rust::string_utils;
 mod test {
     use mercury_rust::string_utils;
-
     #[test]
     fn it_test() {
         let sp = String::from(",");
@@ -11,5 +9,4 @@ mod test {
         let c = vec!["hello", " world"];
         assert_eq!(ret,c);
     }
-
 }

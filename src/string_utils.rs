@@ -17,5 +17,7 @@ pub mod string_utils {
         ret.push(String::from(&resource[cnt..resource.len()]));
         ret
     }
+
+    // pub fn trim()
 }
 
